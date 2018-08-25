@@ -4,14 +4,14 @@ html, body {
   }
 
 
-.card-container {
+#card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  justify-content: space-around;
 }
 
-.austin-card {
+#austin-card, #dino-card {
   background-color: lightsteelblue;
   border: solid rgb(58, 117, 184) 10px;
   width: 45%;
@@ -19,11 +19,17 @@ html, body {
   padding: 20px;
 }
 
+
+.dino {
+  width: 65%;
+  height: 50%;
+}
+
 .me {
   transform: rotate(90deg);
-  max-width: 45%;
-  max-height: 50%;
-  padding: 20px;
+  max-width: 55%;
+  max-height: 60%;
+  padding: 45px;
 }
 
 .footer {
